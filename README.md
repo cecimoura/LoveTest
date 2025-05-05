@@ -1,1 +1,1 @@
-Joguinho q randomiza e da uma porcentagem de amor
+Joguinho q da uma porcentagem de amor
