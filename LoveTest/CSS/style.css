@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kode+Mono:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
 body {
-    background-color: pink;
+  font-family: Agbalumo;
+  color:#f12166;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  }
+
+  .container {
+    text-align: center;
+    background-color: rgb(255, 194, 194);
+    
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color:#e91e63
+  }
+  
+  button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #e91e63;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #d50000;
   }
